@@ -1,0 +1,63 @@
+/* PERSON CARD STYLES */
+
+.person {
+  position: relative;
+  margin: 8.6rem 3.6rem 3.6rem;
+}
+
+.person-image {
+  width: 18rem;
+  border-radius: 50%;
+  border: solid 0.6rem var(--clr-text);
+  position: absolute;
+  left: 34%;
+  top: -120%;
+  box-shadow: 0.1rem 0.1rem 1rem var(--clr-text);
+}
+
+.container {
+  text-align: center;
+}
+
+.info {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.container p {
+  font-size: 2.4rem;
+  margin-bottom: 1.8rem;
+}
+
+.info-selector-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2.4rem;
+}
+
+.icon {
+  color: var(--clr-primary);
+  font-size: 2.4rem;
+  transition: var(--transition);
+}
+
+.icon:hover {
+  color: var(--clr-primary-shade1);
+}
+
+.btn {
+  font-size: 1.6rem;
+  padding: 0.25em 1.5em;
+  border: none;
+  background: var(--clr-primary);
+  transition: var(--transition);
+  border-radius: 0.5rem;
+}
+
+.btn:hover {
+  box-shadow: 0 0 0.5rem var(--clr-accent-tint1);
+  background: var(--clr-primary-shade1);
+  color: var(--clr-text);
+  cursor: pointer;
+}
